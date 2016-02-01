@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<!-- This site was created in Webflow. http://www.webflow.com-->
+<!-- Last Published: Mon Feb 01 2016 13:52:07 GMT+0000 (UTC) -->
+<html data-wf-site="569a3d8dca4d98230789632b" data-wf-page="569a3d8dca4d98230789632c">
+<head>
+  <meta charset="utf-8">
+  <title>Resource cooperation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="generator" content="Webflow">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/webflow.css">
+  <link rel="stylesheet" type="text/css" href="css/resource-cooperation.webflow.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ["PT Sans:400,400italic,700,700italic"]
+      }
+    });
+  </script>
+  <script type="text/javascript" src="js/modernizr.js"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="https://daks2k3a4ib2z.cloudfront.net/img/favicon.ico">
+  <link rel="apple-touch-icon" href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png">
+</head>
+<body>
+  <div class="w-section">
+    <div class="w-container head"><a href="index.html" class="logo">Ресурсная кооперация</a>
+    </div>
+  </div>
+  <div class="w-section">
+    <div class="w-container">
+      <div class="w-row">
+        <div class="w-col w-col-2">
+          <div class="login-form">
+            <div class="w-form">
+              <form id="email-form" name="email-form" data-name="Email Form">
+                <label for="node">Логин:</label>
+                <input id="node" type="text" placeholder="email или логин" data-name="Логин" autofocus="autofocus" required="required" class="w-input">
+                <label for="email">Пароль:</label>
+                <input id="email" type="email" placeholder="Пароль" name="email" data-name="Email" required="required" class="w-input">
+                <input type="submit" value="Войти" data-wait="Входим..." wait="Входим..." class="w-button login-button">
+              </form>
+              <div class="w-form-done">
+                <p>Thank you! Your submission has been received!</p>
+              </div>
+              <div class="w-form-fail">
+                <p>Oops! Something went wrong while submitting the form</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-col w-col-10 body">
+          <div class="main_block">
+            <div data-duration-in="300" data-duration-out="100" class="w-tabs">
+              <div class="w-tab-menu">
+                <a data-w-tab="Новые проекты" class="w-tab-link w--current w-inline-block">
+                  <div>Новые проекты</div>
+                </a>
+                <a data-w-tab="Поиск ресурсов" class="w-tab-link w-inline-block">
+                  <div>Нужны ресурсы</div>
+                </a>
+                <a data-w-tab="Поиск специалистов" class="w-tab-link w-inline-block">
+                  <div>Нужно финансирование</div>
+                </a>
+                <a data-w-tab="Поиск инвесторов" class="w-tab-link w-inline-block">
+                  <div>Нужны специалисты</div>
+                </a>
+              </div>
+              <div class="w-tab-content">
+                <div data-w-tab="Новые проекты" class="w-tab-pane w--tab-active">
+                  <div class="project_banner"><img src="images/photo-original-2.jpg" class="project-banner-small">
+                    <div><strong data-new-link="true">MetaWear</strong>
+                      <br>от <a href="#">Alfredo</a>
+                    </div>
+                    <div class="w-richtext short-project-description">
+                      <p>Краткое описание
+                        <br>
+                      </p>
+                    </div>
+                    <div class="fund-progress"></div>
+                    <div>0%</div>
+                    <ul>
+                      <li>0$ из 5000$</li>
+                      <li>0 ресурса из 5</li>
+                      <li>0 специалиста из 3х</li>
+                    </ul>
+                  </div>
+                  <div class="project_banner"><img src="images/photo-original-4.jpg" class="project-banner-small">
+                    <div><strong data-new-link="true">SLUGHAUS</strong>
+                      <br>от <u>Марии И.</u>
+                    </div>
+                    <div class="w-richtext short-project-description">
+                      <p>Краткое описание
+                        <br>
+                      </p>
+                    </div>
+                    <div class="fund-progress"></div>
+                    <div>30%</div>
+                    <ul>
+                      <li>120$ из 5000$</li>
+                      <li>2 ресурса из 5</li>
+                      <li>3 специалиста из 3х</li>
+                    </ul>
+                  </div>
+                  <div class="project_banner"><img src="images/photo-original-5.jpg" class="project-banner-small">
+                    <div><strong>CODRONE<br></strong>от <a href="#">ООО "Технодроны"</a>
+                    </div>
+                    <div class="w-richtext short-project-description">
+                      <p>Краткое описание
+                        <br>
+                      </p>
+                    </div>
+                    <div class="fund-progress"></div>
+                    <div>50%</div>
+                    <ul>
+                      <li>2200$ из 5000$</li>
+                      <li>2 ресурса из 5</li>
+                      <li>3 специалиста из 3х</li>
+                    </ul>
+                  </div>
+                </div>
+                <div data-w-tab="Поиск ресурсов" class="w-tab-pane">
+                  <div class="project_banner"><img src="images/photo-original-2.jpg" class="project-banner-small">
+                    <div><strong data-new-link="true">MetaWear</strong>
+                      <br>от <a href="#">Alfredo</a>
+                    </div>
+                    <div class="w-richtext short-project-description">
+                      <p>Краткое описание
+                        <br>
+                      </p>
+                    </div>
+                    <div class="fund-progress"></div>
+                    <div>0%</div>
+                    <ul>
+                      <li>0$ из 5000$</li>
+                      <li>0 ресурса из 5</li>
+                      <li>0 специалиста из 3х</li>
+                    </ul>
+                  </div>
+                  <div class="project_banner"><img src="images/photo-original-4.jpg" class="project-banner-small">
+                    <div><strong data-new-link="true">SLUGHAUS</strong>
+                      <br>от <u>Марии И.</u>
+                    </div>
+                    <div class="w-richtext short-project-description">
+                      <p>Краткое описание
+                        <br>
+                      </p>
+                    </div>
+                    <div class="fund-progress"></div>
+                    <div>30%</div>
+                    <ul>
+                      <li>120$ из 5000$</li>
+                      <li>2 ресурса из 5</li>
+                      <li>3 специалиста из 3х</li>
+                    </ul>
+                  </div>
+                  <div class="project_banner"><img src="images/photo-original-5.jpg" class="project-banner-small">
+                    <div><strong>CODRONE<br></strong>от <a href="#">ООО "Технодроны"</a>
+                    </div>
+                    <div class="w-richtext short-project-description">
+                      <p>Краткое описание
+                        <br>
+                      </p>
+                    </div>
+                    <div class="fund-progress"></div>
+                    <div>50%</div>
+                    <ul>
+                      <li>2200$ из 5000$</li>
+                      <li>2 ресурса из 5</li>
+                      <li>3 специалиста из 3х</li>
+                    </ul>
+                  </div>
+                </div>
+                <div data-w-tab="Поиск специалистов" class="w-tab-pane">
+                  <div class="project_banner"><img src="images/photo-original-2.jpg" class="project-banner-small">
+                    <div><strong data-new-link="true">MetaWear</strong>
+                      <br>от <a href="#">Alfredo</a>
+                    </div>
+                    <div class="w-richtext short-project-description">
+                      <p>Краткое описание
+                        <br>
+                      </p>
+                    </div>
+                    <div class="fund-progress"></div>
+                    <div>0%</div>
+                    <ul>
+                      <li>0$ из 5000$</li>
+                      <li>0 ресурса из 5</li>
+                      <li>0 специалиста из 3х</li>
+                    </ul>
+                  </div>
+                  <div class="project_banner"><img src="images/photo-original-5.jpg" class="project-banner-small">
+                    <div><strong>CODRONE<br></strong>от <a href="#">ООО "Технодроны"</a>
+                    </div>
+                    <div class="w-richtext short-project-description">
+                      <p>Краткое описание
+                        <br>
+                      </p>
+                    </div>
+                    <div class="fund-progress"></div>
+                    <div>50%</div>
+                    <ul>
+                      <li>2200$ из 5000$</li>
+                      <li>2 ресурса из 5</li>
+                      <li>3 специалиста из 3х</li>
+                    </ul>
+                  </div>
+                </div>
+                <div data-w-tab="Поиск инвесторов" class="w-tab-pane">
+                  <div class="project_banner"><img src="images/photo-original-2.jpg" class="project-banner-small">
+                    <div><strong data-new-link="true">MetaWear</strong>
+                      <br>от <a href="#">Alfredo</a>
+                    </div>
+                    <div class="w-richtext short-project-description">
+                      <p>Краткое описание
+                        <br>
+                      </p>
+                    </div>
+                    <div class="fund-progress"></div>
+                    <div>0%</div>
+                    <ul>
+                      <li>0$ из 5000$</li>
+                      <li>0 ресурса из 5</li>
+                      <li>0 специалиста из 3х</li>
+                    </ul>
+                  </div>
+                  <div class="project_banner"><img src="images/photo-original-4.jpg" class="project-banner-small">
+                    <div><strong data-new-link="true">SLUGHAUS</strong>
+                      <br>от <u>Марии И.</u>
+                    </div>
+                    <div class="w-richtext short-project-description">
+                      <p>Краткое описание
+                        <br>
+                      </p>
+                    </div>
+                    <div class="fund-progress"></div>
+                    <div>30%</div>
+                    <ul>
+                      <li>120$ из 5000$</li>
+                      <li>2 ресурса из 5</li>
+                      <li>3 специалиста из 3х</li>
+                    </ul>
+                  </div>
+                  <div class="project_banner"><img src="images/photo-original-5.jpg" class="project-banner-small">
+                    <div><strong>CODRONE<br></strong>от <a href="#">ООО "Технодроны"</a>
+                    </div>
+                    <div class="w-richtext short-project-description">
+                      <p>Краткое описание
+                        <br>
+                      </p>
+                    </div>
+                    <div class="fund-progress"></div>
+                    <div>50%</div>
+                    <ul>
+                      <li>2200$ из 5000$</li>
+                      <li>2 ресурса из 5</li>
+                      <li>3 специалиста из 3х</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="select-category">
+            <div><strong data-new-link="true">Исследуйте по тематике:</strong>
+            </div><a href="#" class="top_grey">ВСЕ ПРОЕКТЫ</a><a href="#" class="top_grey">Инновационные технологии</a><a href="#" class="top_grey">Наука</a><a href="#" class="top_grey">Альтернативная энергетика</a><a href="#" class="top_grey">Микрофинансирование</a><a href="#" class="top_grey">Строительство</a><a href="#" class="top_grey">Эко продукты</a><a href="#" class="top_grey">Сельское хозяйство</a><a href="#" class="top_grey">Породистые животные</a><a href="#" class="top_grey">Эко транспорт</a><a href="#" class="top_grey">Интернет проекты</a><a href="#" class="top_grey">Роботика</a><a href="#" class="top_grey">Программирование</a><a href="#" class="top_grey">Обучение</a>
+          </div>
+          <div class="text"><strong data-new-link="true">Ресурсная кооперация</strong> - краудфандинговая платформа для старта инновационных проектов</div>
+          <div class="w-row highlight">
+            <div class="w-col w-col-4">
+              <div class="intro">
+                <h1 class="center">Стартапу</h1>
+                <ul>
+                  <li>поиск ресурсов</li>
+                  <li>подбор специалистов</li>
+                  <li>помощь в подготовке проекта</li>
+                </ul><a href="#" class="w-button action-button">Создать проект</a>
+              </div>
+            </div>
+            <div class="w-col w-col-4">
+              <div class="intro">
+                <h1 class="center">инвестору</h1>
+                <ul>
+                  <li>открытость проекта = уменьшеные риски</li>
+                  <li>высокий процент прибыли в стартапы</li>
+                  <li>возможность инвестирования не только финансами, но и материальными ресурсами</li>
+                </ul>
+              </div><a href="#" class="w-button action-button">Выбрать проекты</a>
+            </div>
+            <div class="w-col w-col-4">
+              <div class="intro">
+                <h1 class="center">специалисту</h1>
+                <ul>
+                  <li>работа в перспективном проекте</li>
+                  <li>рост оплаты труда пропорционально прибыли компании</li>
+                </ul>
+              </div><a href="#" class="w-button action-button">Найти работу</a>
+            </div>
+          </div>
+          <h1 class="center">Схема работы</h1>
+          <div>
+            <h1 class="center hplan">1. Подготовка проекта к публикации</h1>
+            <div class="w-richtext">
+              <p>Совместное обсуждение и доработка проекта с опытными предпринимателями, консультантами и инвесторами</p>
+            </div>
+          </div>
+          <div>
+            <h1 class="center hplan">2. Официальная публикация проекта</h1>
+            <div class="w-richtext">
+              <p>Проект публикуется на главной странице сайта. Активная реклама. Сбор заявок на финансирование, на получение нужных ресурсов и конкурс специалистов.</p>
+            </div>
+          </div>
+          <div>
+            <h1 class="center hplan">3. Реализация проекта</h1>
+            <div class="w-richtext">
+              <p>Старт и реализация проекта. Выплата прибыли всем участникам проекта, согласно их вкладу.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-section footer">
+    <div class="w-row">
+      <div class="w-col w-col-4">
+        <div class="w-richtext">
+          <h5>Тематики</h5>
+          <ul>
+            <li>Инновационные технологии</li>
+            <li>Наука</li>
+            <li>Альтернативная энергетика</li>
+            <li>Микрофинансирование</li>
+            <li>Строительство</li>
+            <li>Экопродукты</li>
+            <li>Сельское хозяйство</li>
+            <li>Породистые животные</li>
+            <li>Эко транспорт</li>
+            <li>Интернет проекты</li>
+            <li>Роботика</li>
+            <li>Программирование</li>
+            <li>Обучение</li>
+          </ul>
+        </div>
+        <div><strong data-new-link="true">Ресурсная кооперация © 2016</strong>
+        </div>
+      </div>
+      <div class="w-col w-col-5">
+        <div class="w-richtext">
+          <h5>Помощь</h5>
+          <ul>
+            <li>О ресурсной кооперции</li>
+            <li>Наши принципы</li>
+            <li>Статистика</li>
+          </ul>
+        </div>
+      </div>
+      <div class="w-col w-col-3">
+        <div class="w-richtext">
+          <h5>О нас</h5>
+          <ul>
+            <li>О ресурсной кооперции</li>
+            <li>Наши принципы</li>
+            <li>Статистика</li>
+            <li>Blog</li>
+            <li>Twitter</li>
+            <li>Vkontakte</li>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Pinterest</li>
+            <li>YouTube</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/webflow.js"></script>
+  <!--[if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+</body>
+</html>
